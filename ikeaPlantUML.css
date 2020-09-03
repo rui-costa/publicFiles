@@ -1,0 +1,61 @@
+
+sequenceDiagram{
+
+    FontName verdana;
+    LineColor #000000;
+
+    arrow{
+        LineColor #0051BA;
+    }
+
+    lifeLine{
+        LineColor #000000
+        BackgroundColor #FFDA1A;
+    }
+
+    participant{
+        BackgroundColor #0051BA;
+        FontColor #FFDA1A;
+        LineColor #000000;
+        FontStyle bold;
+        RoundCorner 5;
+    }
+
+    box{
+        FontSize 20;
+        BackgroundColor #FFDA1A;
+        FontColor #000000;
+        LineColor #000000;
+        RoundCorner 10;
+    }
+
+}
+
+title{
+FontSize 30
+BackgroundColor #0051BA;
+FontColor #FFDA1A;
+Padding 10
+}
+
+
+.ikeaActor {
+BackgroundColor #FFDA1A;
+LineColor #000000;
+FontStyle bold;
+}
+
+.externalActor{
+BackgroundColor #0051BA;
+LineColor #000000;
+FontStyle bold;
+
+}
+
+.participantYellow{
+BackgroundColor #FFDA1A;
+FontColor #000000;
+LineColor #000000;
+RoundCorner 5
+
+}
