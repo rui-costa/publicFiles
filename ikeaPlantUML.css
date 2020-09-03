@@ -30,6 +30,13 @@ sequenceDiagram{
         RoundCorner 10;
     }
 
+    actor{
+        BackgroundColor #0051BA;
+        LineColor #000000;
+        FontStyle bold;
+          
+    }
+
 }
 
 title{
@@ -40,20 +47,7 @@ Padding 10
 }
 
 
-.ikeaActor {
-BackgroundColor #FFDA1A;
-LineColor #000000;
-FontStyle bold;
-}
-
-.externalActor{
-BackgroundColor #0051BA;
-LineColor #000000;
-FontStyle bold;
-
-}
-
-.participantYellow{
+.focusYellow{
 BackgroundColor #FFDA1A;
 FontColor #000000;
 LineColor #000000;
