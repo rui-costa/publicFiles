@@ -1,5 +1,18 @@
 
 <style>
+
+' this time, scoping to wbsDiagram
+wbsDiagram {
+      BackgroundColor White
+      RoundCorner 10
+      LineColor red
+   arrow {
+    ' note that Connectors are actually "Arrows"; this may change in the future
+    ' so this means all Connectors and Arrows are now going to be green
+    LineColor blue
+  }
+}
+
 sequenceDiagram{
 
     FontName verdana;
