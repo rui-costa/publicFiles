@@ -91,7 +91,7 @@ skinparam {
     NodeBackgroundColor STYLE_BGC
     NoteBackgroundColor STYLE_BGC
     ObjectBackgroundColor STYLE_BGC
-    PackageBackgroundColor STYLE_BGC
+    PackageBackgroundColor STYLE_LIGHT_FILLED_BGC
     ParticipantBackgroundColor STYLE_BGC
     PartitionBackgroundColor STYLE_BGC
     QueueBackgroundColor STYLE_BGC
