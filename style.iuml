@@ -2,25 +2,11 @@
 # Original file on https://gist.github.com/jerieljan/4c82515ff5f2b2e4dd5122d354a82b7e
 @startuml
 
-' Load preset styles.
-' Preset Styles by Jeriel Jan
 
-' Preset: Monochrome
-!define STYLE_DEFAULT_ACCENT #383e42
-!define STYLE_DEFAULT_BGC #FFF
-!define STYLE_DEFAULT_FGC #383e42
-
-
-skinparam {
-    ' This field left intentionally blank.
-}
-
-' Color Definition
-' Choose the style you want by applying them here.
-
-!define STYLE_ACCENT STYLE_DEFAULT_ACCENT
-!define STYLE_BGC STYLE_DEFAULT_BGC
-!define STYLE_FGC STYLE_DEFAULT_FGC
+!define STYLE_ACCENT #383e42
+!define STYLE_BGC #FFF
+!define STYLE_FGC  #383e42
+!define STYLE_FILLED_BGC #383e42
 
 ' RECOMMENDED STYLE
 ' -=- DO NOT EDIT THIS SECTION. -=-
@@ -79,8 +65,8 @@ skinparam {
 
     ActivityBackgroundColor STYLE_BGC
     ActivityDiamondBackgroundColor STYLE_BGC
-    ActorBackgroundColor STYLE_BGC
-    AgentBackgroundColor STYLE_BGC
+    ActorBackgroundColor STYLE_FILLED_BGC
+    AgentBackgroundColor STYLE_FILLED_BGC
     ArtifactBackgroundColor STYLE_BGC
     BackgroundColor STYLE_BGC
     BoundaryBackgroundColor STYLE_BGC
@@ -108,7 +94,7 @@ skinparam {
     ParticipantBackgroundColor STYLE_BGC
     PartitionBackgroundColor STYLE_BGC
     QueueBackgroundColor STYLE_BGC
-    RectangleBackgroundColor STYLE_BGC
+    RectangleBackgroundColor STYLE_FILLED_BGC
     SequenceBoxBackgroundColor STYLE_BGC
     SequenceDividerBackgroundColor STYLE_BGC
     SequenceGroupBackgroundColor STYLE_BGC
