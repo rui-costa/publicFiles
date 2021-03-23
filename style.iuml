@@ -32,9 +32,9 @@ skinparam {
 ' Color Definition
 ' Choose the style you want by applying them here.
 
-!define STYLE_ACCENT STYLE_LIGHT_ACCENT
-!define STYLE_BGC STYLE_LIGHT_BGC
-!define STYLE_FGC STYLE_LIGHT_FGC
+!define STYLE_ACCENT STYLE_DEFAULT_ACCENT
+!define STYLE_BGC STYLE_DEFAULT_BGC
+!define STYLE_FGC STYLE_DEFAULT_FGC
 
 ' RECOMMENDED STYLE
 ' -=- DO NOT EDIT THIS SECTION. -=-
