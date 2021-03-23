@@ -18,8 +18,8 @@ skinparam {
     ' Global Options
     DPI 200
     Shadowing false
-    DefaultFontName Noto Sans
-    DefaultMonospacedFontName Noto Sans
+    DefaultFontName Arial
+    DefaultMonospacedFontName Arial
     DefaultFontColor STYLE_FGC
 
     ' Styles - Borders
@@ -129,7 +129,7 @@ skinparam {
     roundcorner 8
     'Monochrome true
 
-    NoteFontName Noto Sans
+    NoteFontName Arial
     NoteFontStyle Italic
     'NoteBackgroundColor STYLE_BGC
 
