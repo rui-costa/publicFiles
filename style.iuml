@@ -25,8 +25,6 @@ skinparam {
     ' Styles - Borders
 
     ArrowColor STYLE_ACCENT
-    ActivityBorderColor STYLE_ACCENT
-    ActivityDiamondBorderColor STYLE_ACCENT
     ArtifactBorderColor STYLE_ACCENT
     BoundaryBorderColor STYLE_ACCENT
     ClassBorderColor STYLE_ACCENT
@@ -56,8 +54,6 @@ skinparam {
 
     ' Styles - Backgrounds
 
-    ActivityBackgroundColor STYLE_BGC
-    ActivityDiamondBackgroundColor STYLE_BGC
     ArtifactBackgroundColor STYLE_BGC
     BackgroundColor STYLE_BGC
     BoundaryBackgroundColor STYLE_BGC
@@ -109,16 +105,26 @@ skinparam {
 
     
     ' SEQUENCE DIAGRAMS
+    ActivityBorderColor STYLE_ACCENT
+    ActivityBackgroundColor STYLE_DARK_FILLED_BGC
+    
+    ActivityDiamondBorderColor STYLE_ACCENT 
+    ActivityDiamondBackgroundColor STYLE_BGC
+    
     SequenceBoxBorderColor STYLE_ACCENT
-    SequenceDividerBorderColor STYLE_ACCENT
-    SequenceGroupBorderColor STYLE_ACCENT
-    SequenceLifeLineBorderColor STYLE_ACCENT
-    SequenceReferenceBorderColor STYLE_ACCENT
     SequenceBoxBackgroundColor STYLE_LIGHT_FILLED_BGC
+
+    SequenceDividerBorderColor STYLE_ACCENT
     SequenceDividerBackgroundColor STYLE_BGC
+
+    SequenceGroupBorderColor STYLE_ACCENT
     SequenceGroupBackgroundColor STYLE_BGC
     SequenceGroupBodyBackgroundColor STYLE_BGC
+
+    SequenceLifeLineBorderColor STYLE_ACCENT
     SequenceLifeLineBackgroundColor STYLE_BGC
+
+    SequenceReferenceBorderColor STYLE_ACCENT
     SequenceReferenceBackgroundColor STYLE_BGC
     SequenceReferenceHeaderBackgroundColor STYLE_LIGHT_FILLED_BGC
     
