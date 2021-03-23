@@ -118,7 +118,8 @@ skinparam {
     SequenceDividerBackgroundColor STYLE_BGC
 
     SequenceGroupBorderColor STYLE_ACCENT
-    SequenceGroupBackgroundColor STYLE_BGC
+    SequenceGroupBackgroundColor STYLE_DARK_FILLED_BGC
+    SequenceGroupFontColor STYLE_BGC
     SequenceGroupBodyBackgroundColor STYLE_BGC
 
     SequenceLifeLineBorderColor STYLE_ACCENT
