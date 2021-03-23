@@ -95,7 +95,7 @@ skinparam {
     PartitionBackgroundColor STYLE_BGC
     QueueBackgroundColor STYLE_BGC
     RectangleBackgroundColor STYLE_BGC
-    SequenceBoxBackgroundColor STYLE_BGC
+    SequenceBoxBackgroundColor STYLE_FILLED_BGC
     SequenceDividerBackgroundColor STYLE_BGC
     SequenceGroupBackgroundColor STYLE_FILLED_BGC
     SequenceGroupBodyBackgroundColor STYLE_BGC
