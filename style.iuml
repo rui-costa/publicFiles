@@ -6,9 +6,9 @@
 ' Preset Styles by Jeriel Jan
 
 ' Preset: Monochrome
-!define STYLE_DEFAULT_ACCENT #000
+!define STYLE_DEFAULT_ACCENT #383e42
 !define STYLE_DEFAULT_BGC #FFF
-!define STYLE_DEFAULT_FGC #000
+!define STYLE_DEFAULT_FGC #383e42
 
 ' Preset: Material Light Blue (200)
 !define STYLE_LIGHT_ACCENT #81D4FA
