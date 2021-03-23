@@ -18,7 +18,7 @@ skinparam {
     Shadowing false
     DefaultFontName Arial
     DefaultMonospacedFontName Arial
-    DefaultFontColor STYLE_DARK
+    ' DefaultFontColor STYLE_DARK
 
     ' Styles - Borders
 
