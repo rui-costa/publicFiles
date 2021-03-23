@@ -93,7 +93,7 @@ skinparam {
     ObjectBackgroundColor STYLE_BGC
     PackageBackgroundColor STYLE_LIGHT_FILLED_BGC
     ParticipantBackgroundColor STYLE_BGC
-    PartitionBackgroundColor STYLE_BGC
+    PartitionBackgroundColor STYLE_LIGHT_FILLED_BGC
     QueueBackgroundColor STYLE_BGC
     RectangleBackgroundColor STYLE_LIGHT_FILLED_BGC
     SequenceBoxBackgroundColor STYLE_LIGHT_FILLED_BGC
