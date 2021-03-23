@@ -3,11 +3,9 @@
 @startuml
 
 
-!define STYLE_ACCENT #383e42
-!define STYLE_BGC #FFF
-!define STYLE_FGC  #383e42
-!define STYLE_LIGHT_FILLED_BGC #d6d6d6
-!define STYLE_DARK_FILLED_BGC #383e42
+!define STYLE_CLEAR #FFF
+!define STYLE_LIGHT  #d6d6d6
+!define STYLE_DARK #383e42
 
 ' RECOMMENDED STYLE
 ' -=- DO NOT EDIT THIS SECTION. -=-
@@ -20,114 +18,114 @@ skinparam {
     Shadowing false
     DefaultFontName Arial
     DefaultMonospacedFontName Arial
-    DefaultFontColor STYLE_FGC
+    DefaultFontColor STYLE_DARK
 
     ' Styles - Borders
 
-    ArrowColor STYLE_ACCENT
-    ArtifactBorderColor STYLE_ACCENT
-    BoundaryBorderColor STYLE_ACCENT
-    ClassBorderColor STYLE_ACCENT
-    CloudBorderColor STYLE_ACCENT
-    CollectionsBorderColor STYLE_ACCENT
-    ComponentBorderColor STYLE_ACCENT
-    ControlBorderColor STYLE_ACCENT
-    DatabaseBorderColor STYLE_ACCENT
-    EntityBorderColor STYLE_ACCENT
-    FileBorderColor STYLE_ACCENT
-    FolderBorderColor STYLE_ACCENT
-    FrameBorderColor STYLE_ACCENT
-    InterfaceBorderColor STYLE_ACCENT
-    LegendBorderColor STYLE_ACCENT
-    NodeBorderColor STYLE_ACCENT
-    NoteBorderColor STYLE_ACCENT
-    ObjectBorderColor STYLE_ACCENT
-    PackageBorderColor STYLE_ACCENT
-    PartitionBorderColor STYLE_ACCENT
-    QueueBorderColor STYLE_ACCENT
-    RectangleBorderColor STYLE_ACCENT
-    StackBorderColor STYLE_ACCENT
-    StateBorderColor STYLE_ACCENT
-    StorageBorderColor STYLE_ACCENT
-    SwimlaneBorderColor STYLE_ACCENT
-    UsecaseBorderColor STYLE_ACCENT
+    ArrowColor STYLE_DARK
+    ArtifactBorderColor STYLE_DARK
+    BoundaryBorderColor STYLE_DARK
+    ClassBorderColor STYLE_DARK
+    CloudBorderColor STYLE_DARK
+    CollectionsBorderColor STYLE_DARK
+    ComponentBorderColor STYLE_DARK
+    ControlBorderColor STYLE_DARK
+    DatabaseBorderColor STYLE_DARK
+    EntityBorderColor STYLE_DARK
+    FileBorderColor STYLE_DARK
+    FolderBorderColor STYLE_DARK
+    FrameBorderColor STYLE_DARK
+    InterfaceBorderColor STYLE_DARK
+    LegendBorderColor STYLE_DARK
+    NodeBorderColor STYLE_DARK
+    NoteBorderColor STYLE_DARK
+    ObjectBorderColor STYLE_DARK
+    PackageBorderColor STYLE_DARK
+    PartitionBorderColor STYLE_DARK
+    QueueBorderColor STYLE_DARK
+    RectangleBorderColor STYLE_DARK
+    StackBorderColor STYLE_DARK
+    StateBorderColor STYLE_DARK
+    StorageBorderColor STYLE_DARK
+    SwimlaneBorderColor STYLE_DARK
+    UsecaseBorderColor STYLE_DARK
 
     ' Styles - Backgrounds
 
-    ArtifactBackgroundColor STYLE_BGC
-    BackgroundColor STYLE_BGC
-    BoundaryBackgroundColor STYLE_BGC
-    ClassBackgroundColor STYLE_BGC
-    ClassHeaderBackgroundColor STYLE_BGC
-    CloudBackgroundColor STYLE_BGC
-    CollectionsBackgroundColor STYLE_BGC
-    ComponentBackgroundColor STYLE_BGC
-    ControlBackgroundColor STYLE_BGC
-    DatabaseBackgroundColor STYLE_BGC
-    EntityBackgroundColor STYLE_BGC
-    FileBackgroundColor STYLE_BGC
-    FolderBackgroundColor STYLE_BGC
-    FrameBackgroundColor STYLE_BGC
-    IconPackageBackgroundColor STYLE_BGC
-    IconPrivateBackgroundColor STYLE_BGC
-    IconProtectedBackgroundColor STYLE_BGC
-    IconPublicBackgroundColor STYLE_BGC
-    InterfaceBackgroundColor STYLE_BGC
-    LegendBackgroundColor STYLE_BGC
-    NodeBackgroundColor STYLE_BGC
-    NoteBackgroundColor STYLE_BGC
-    ObjectBackgroundColor STYLE_BGC
-    PackageBackgroundColor STYLE_LIGHT_FILLED_BGC
-    PartitionBackgroundColor STYLE_LIGHT_FILLED_BGC
-    QueueBackgroundColor STYLE_BGC
-    RectangleBackgroundColor STYLE_LIGHT_FILLED_BGC
-    StackBackgroundColor STYLE_BGC
-    StateBackgroundColor STYLE_BGC
-    StereotypeABackgroundColor STYLE_BGC
-    StereotypeCBackgroundColor STYLE_BGC
-    StereotypeEBackgroundColor STYLE_BGC
-    StereotypeIBackgroundColor STYLE_BGC
-    StereotypeNBackgroundColor STYLE_BGC
-    StorageBackgroundColor STYLE_BGC
-    TitleBackgroundColor STYLE_BGC
-    UsecaseBackgroundColor STYLE_BGC
+    ArtifactBackgroundColor STYLE_CLEAR
+    BackgroundColor STYLE_CLEAR
+    BoundaryBackgroundColor STYLE_CLEAR
+    ClassBackgroundColor STYLE_CLEAR
+    ClassHeaderBackgroundColor STYLE_CLEAR
+    CloudBackgroundColor STYLE_CLEAR
+    CollectionsBackgroundColor STYLE_CLEAR
+    ComponentBackgroundColor STYLE_CLEAR
+    ControlBackgroundColor STYLE_CLEAR
+    DatabaseBackgroundColor STYLE_CLEAR
+    EntityBackgroundColor STYLE_CLEAR
+    FileBackgroundColor STYLE_CLEAR
+    FolderBackgroundColor STYLE_CLEAR
+    FrameBackgroundColor STYLE_CLEAR
+    IconPackageBackgroundColor STYLE_CLEAR
+    IconPrivateBackgroundColor STYLE_CLEAR
+    IconProtectedBackgroundColor STYLE_CLEAR
+    IconPublicBackgroundColor STYLE_CLEAR
+    InterfaceBackgroundColor STYLE_CLEAR
+    LegendBackgroundColor STYLE_CLEAR
+    NodeBackgroundColor STYLE_CLEAR
+    NoteBackgroundColor STYLE_CLEAR
+    ObjectBackgroundColor STYLE_CLEAR
+    PackageBackgroundColor STYLE_LIGHT
+    PartitionBackgroundColor STYLE_LIGHT
+    QueueBackgroundColor STYLE_CLEAR
+    RectangleBackgroundColor STYLE_LIGHT
+    StackBackgroundColor STYLE_CLEAR
+    StateBackgroundColor STYLE_CLEAR
+    StereotypeABackgroundColor STYLE_CLEAR
+    StereotypeCBackgroundColor STYLE_CLEAR
+    StereotypeEBackgroundColor STYLE_CLEAR
+    StereotypeIBackgroundColor STYLE_CLEAR
+    StereotypeNBackgroundColor STYLE_CLEAR
+    StorageBackgroundColor STYLE_CLEAR
+    TitleBackgroundColor STYLE_CLEAR
+    UsecaseBackgroundColor STYLE_CLEAR
     
     ' ACTORS
-    ActorBorderColor STYLE_ACCENT
-    ActorBackgroundColor STYLE_DARK_FILLED_BGC
+    ActorBorderColor STYLE_DARK
+    ActorBackgroundColor STYLE_DARK
 
-    AgentBorderColor STYLE_ACCENT
-    AgentBackgroundColor STYLE_DARK_FILLED_BGC 
+    AgentBorderColor STYLE_DARK
+    AgentBackgroundColor STYLE_DARK 
 
-    ParticipantBorderColor STYLE_ACCENT
-    ParticipantBackgroundColor STYLE_DARK_FILLED_BGC
-    ParticipantFontColor STYLE_BGC
+    ParticipantBorderColor STYLE_DARK
+    ParticipantBackgroundColor STYLE_DARK
+    ParticipantFontColor STYLE_CLEAR
 
     
     ' SEQUENCE DIAGRAMS
-    ActivityBorderColor STYLE_ACCENT
-    ActivityBackgroundColor STYLE_DARK_FILLED_BGC
+    ActivityBorderColor STYLE_DARK
+    ActivityBackgroundColor STYLE_DARK
     
-    ActivityDiamondBorderColor STYLE_ACCENT 
-    ActivityDiamondBackgroundColor STYLE_BGC
+    ActivityDiamondBorderColor STYLE_DARK 
+    ActivityDiamondBackgroundColor STYLE_CLEAR
     
-    SequenceBoxBorderColor STYLE_ACCENT
-    SequenceBoxBackgroundColor STYLE_LIGHT_FILLED_BGC
+    SequenceBoxBorderColor STYLE_DARK
+    SequenceBoxBackgroundColor STYLE_LIGHT
 
-    SequenceDividerBorderColor STYLE_ACCENT
-    SequenceDividerBackgroundColor STYLE_BGC
+    SequenceDividerBorderColor STYLE_DARK
+    SequenceDividerBackgroundColor STYLE_CLEAR
 
-    SequenceGroupBorderColor STYLE_ACCENT
-    SequenceGroupBackgroundColor STYLE_DARK_FILLED_BGC
-    SequenceGroupFontColor STYLE_BGC
-    SequenceGroupBodyBackgroundColor STYLE_BGC
+    SequenceGroupBorderColor STYLE_DARK
+    SequenceGroupBackgroundColor STYLE_DARK
+    SequenceGroupFontColor STYLE_CLEAR
+    SequenceGroupBodyBackgroundColor STYLE_CLEAR
 
-    SequenceLifeLineBorderColor STYLE_ACCENT
-    SequenceLifeLineBackgroundColor STYLE_BGC
+    SequenceLifeLineBorderColor STYLE_DARK
+    SequenceLifeLineBackgroundColor STYLE_CLEAR
 
-    SequenceReferenceBorderColor STYLE_ACCENT
-    SequenceReferenceBackgroundColor STYLE_BGC
-    SequenceReferenceHeaderBackgroundColor STYLE_LIGHT_FILLED_BGC
+    SequenceReferenceBorderColor STYLE_DARK
+    SequenceReferenceBackgroundColor STYLE_CLEAR
+    SequenceReferenceHeaderBackgroundColor STYLE_LIGHT
     
 
     ' -=- END OF RECOMMENDED STYLE -=-
@@ -136,8 +134,8 @@ skinparam {
     ' These settings are included in the language specs, but
     ' it's not recommended to be applied.
 
-        'TitleBorderColor STYLE_ACCENT
-        'DiagramBorderColor STYLE_ACCENT
+        'TitleBorderColor STYLE_DARK
+        'DiagramBorderColor STYLE_DARK
 
     ' CUSTOM STYLE
     ' All items below can be safely commented out.
@@ -147,7 +145,7 @@ skinparam {
 
     NoteFontName Arial
     NoteFontStyle Italic
-    'NoteBackgroundColor STYLE_BGC
+    NoteBackgroundColor STYLE_LIGHT
 
 }
 @enduml
