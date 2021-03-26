@@ -116,7 +116,7 @@ skinparam {
     SequenceDividerBackgroundColor STYLE_CLEAR
 
     SequenceGroupBorderColor STYLE_DARK
-    SequenceGroupBackgroundColor STYLE_DARK
+    SequenceGroupBackgroundColor STYLE_LIGHT
     SequenceGroupFontColor STYLE_CLEAR
     SequenceGroupBodyBackgroundColor STYLE_CLEAR
 
