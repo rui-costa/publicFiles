@@ -95,7 +95,7 @@ skinparam {
     ActorBackgroundColor STYLE_DARK
 
     AgentBorderColor STYLE_DARK
-    AgentBackgroundColor STYLE_DARK 
+    AgentBackgroundColor STYLE_LIGHT 
 
     ParticipantBorderColor STYLE_DARK
     ParticipantBackgroundColor STYLE_DARK
