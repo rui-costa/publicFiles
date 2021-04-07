@@ -87,7 +87,6 @@ skinparam {
     StereotypeIBackgroundColor STYLE_CLEAR
     StereotypeNBackgroundColor STYLE_CLEAR
     StorageBackgroundColor STYLE_CLEAR
-    TitleBackgroundColor STYLE_CLEAR
     UsecaseBackgroundColor STYLE_CLEAR
     
     ' ACTORS
@@ -127,6 +126,10 @@ skinparam {
     SequenceReferenceBackgroundColor STYLE_CLEAR
     SequenceReferenceHeaderBackgroundColor STYLE_LIGHT
     
+    ' TITLE
+    TitleBackgroundColor STYLE_DARK
+    TitleBackgroundFontColor STYLE_CLEAR
+
 
     ' -=- END OF RECOMMENDED STYLE -=-
 
