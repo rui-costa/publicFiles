@@ -5,6 +5,10 @@ function getRandomText(){
 const ROOM_CODE = prompt("Insert your Room Code\nCannot be longer than 20 chars\nYou can also use the auto-generated one", (getRandomText())); 
 const PASSWORD = prompt("Insert your Password\nYou can also use the auto-generated one", (getRandomText()));
 
+function showCredentials(){
+    prompt("Here is your ROOM CODE", (ROOM_CODE)); 
+    prompt("HERE is your PASSWORD", (PASSWORD));
+}
 
 function obsUrl(readWrite,object,iterator = 1){
     let type = 'error_in_parameter'
