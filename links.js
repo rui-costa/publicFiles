@@ -1,5 +1,9 @@
-var TEAM_UNIQUE_LINK = prompt("Please add your unique team link\nCannot be longer than 20 chars", (((1+Math.random())*0x10000)|0).toString(20).substring(1)); //cannot be 20 chars
-const PASSWORD = prompt("Add a password for added protection", (((1+Math.random())*0x10000)|0).toString(16).substring(1));
+function getRandomText(){
+    return btoa(Math.floor(Math.random()*100000000000)+ 10000000000000000000000).replaceAll('=','').substring(1,20)
+}
+
+var TEAM_UNIQUE_LINK = prompt("Please add your unique team link\nCannot be longer than 20 chars", (getRandomText()); //cannot be 20 chars
+const PASSWORD = prompt("Add a password for added protection", (getRandomText()));
 
 
 function obsUrl(readWrite,object,iterator = 1){
