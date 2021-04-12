@@ -2,8 +2,8 @@ function getRandomText(){
     return btoa(Math.floor(Math.random()*100000000000)+ 10000000000000000000000).replaceAll('=','').substring(1,20)
 }
 
-var TEAM_UNIQUE_LINK = prompt("Please add your unique team link\nCannot be longer than 20 chars", (getRandomText())); 
-const PASSWORD = prompt("Add a password for added protection", (getRandomText()));
+var TEAM_UNIQUE_LINK = prompt("Insert your Room Code\nCannot be longer than 20 chars\nYou can also use the auto-generated one", (getRandomText())); 
+const PASSWORD = prompt("Insert your Password\nYou can also use the auto-generated one", (getRandomText()));
 
 
 function obsUrl(readWrite,object,iterator = 1){
