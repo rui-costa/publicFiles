@@ -17,19 +17,28 @@ function obsUrl(readWrite,object,iterator = 1){
     if (readWrite === 'r'){
         type = 'view'
         pw = 'pw'
+        
+        if(object === 'camera'){
+            data_object = `_C${iterator}&webcam`
+        }
+        if(object === 'desktop'){
+            data_object = `_D${iterator}&screenshare`
+        }
     }
 
     if (readWrite === 'w'){
         type = 'push'
         pw = 'password'
+        
+        if(object === 'camera'){
+            data_object = `_C${iterator}`
+        }
+        if(object === 'desktop'){
+            data_object = `_D${iterator}`
+        }
     }
 
-    if(object === 'camera'){
-        data_object = `_C${iterator}&webcam`
-    }
-    if(object === 'desktop'){
-        data_object = `_D${iterator}&screenshare`
-    }
+
 
     return `https://obs.ninja/?${type}=${ROOM_CODE}${data_object}&${pw}=${PASSWORD}`
 
