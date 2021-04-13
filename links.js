@@ -25,7 +25,7 @@ function obsUrl(readWrite,object,iterator = 1){
     }
 
     if(object === 'camera'){
-        data_object = `_C${iterator}`
+        data_object = `_C${iterator}&webcam`
     }
     if(object === 'desktop'){
         data_object = `_D${iterator}`
