@@ -28,7 +28,7 @@ function obsUrl(readWrite,object,iterator = 1){
         data_object = `_C${iterator}&webcam`
     }
     if(object === 'desktop'){
-        data_object = `_D${iterator}`
+        data_object = `_D${iterator}&screenshare`
     }
 
     return `https://obs.ninja/?${type}=${ROOM_CODE}${data_object}&${pw}=${PASSWORD}`
