@@ -89,6 +89,14 @@ function generateToClipboard(link_type, operation, iterator) {
     copyToClipboard(generateLink(link_type, operation, iterator))
 }
 
+function copyRoomCode(){
+    copyToClipboard(document.getElementById('room_code').value)
+}
+
+function copyRoomPassword(){
+    copyToClipboard(document.getElementById('room_password').value)
+}
+
 function copyToClipboard(text){
     let clipboard = document.getElementById('clipboard')
     clipboard.value = text
@@ -163,6 +171,17 @@ if (document.getElementById('showPass') != null) {
     })
 }
 
+if (document.getElementById('room_code') != null){
+    document.getElementById('room_code').addEventListener("click", function () {
+        copyRoomCode()
+    })
+}
+
+if (document.getElementById('room_password') != null){
+    document.getElementById('room_password').addEventListener("click", function () {
+        copyRoomCode()
+    })
+}
 
 if (document.title == "Sharing Mode") {
     startStream()
