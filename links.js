@@ -179,7 +179,7 @@ if (document.getElementById('cp_room_code') != null){
 
 if (document.getElementById('cp_room_password') != null){
     document.getElementById('cp_room_password').addEventListener("click", function () {
-        copyRoomCode()
+        copyRoomPassword()
     })
 }
 
