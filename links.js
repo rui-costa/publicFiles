@@ -86,11 +86,15 @@ function addTemplate() {
 }
 
 function generateToClipboard(link_type, operation, iterator) {
+    copyToClipboard(generateLink(link_type, operation, iterator))
+}
+
+function copyToClipboard(text){
     let clipboard = document.getElementById('clipboard')
-    clipboard.value = generateLink(link_type, operation, iterator)
+    clipboard.value = text
     clipboard.select()
     clipboard.setSelectionRange(0, 99999)
-    document.execCommand("copy")
+    document.execCommand("copy")    
 }
 
 function generateCameraViewLink(code, pass, iterator) {
