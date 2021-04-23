@@ -171,14 +171,14 @@ if (document.getElementById('showPass') != null) {
     })
 }
 
-if (document.getElementById('room_code') != null){
-    document.getElementById('room_code').addEventListener("click", function () {
+if (document.getElementById('cp_room_code') != null){
+    document.getElementById('cp_room_code').addEventListener("click", function () {
         copyRoomCode()
     })
 }
 
-if (document.getElementById('room_password') != null){
-    document.getElementById('room_password').addEventListener("click", function () {
+if (document.getElementById('cp_room_password') != null){
+    document.getElementById('cp_room_password').addEventListener("click", function () {
         copyRoomCode()
     })
 }
