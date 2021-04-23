@@ -34,24 +34,50 @@ function addTemplate() {
         let template = document.getElementById('template')
         let content = document.getElementById('content')
         let new_div = template.cloneNode("true")
-        new_div.setAttribute("id", "")
+        new_div.setAttribute("id", id)
         new_div.setAttribute("class", "row")
 
-        new_div.querySelector('#camera_t1').setAttribute('id', 'camera_' + id)
-        new_div.querySelector('#desktop_t1').setAttribute('id', 'desktop_' + id)
-        new_div.querySelector('#camera_' + id).setAttribute('src', generateLink('camera', 'view', id))
-        new_div.querySelector('#desktop_' + id).setAttribute('src', generateLink('screen', 'view', id))
-        ++id
-        new_div.querySelector('#camera_t2').setAttribute('id', 'camera_' + id)
-        new_div.querySelector('#desktop_t2').setAttribute('id', 'desktop_' + id)
-        new_div.querySelector('#camera_' + id).setAttribute('src', generateLink('camera', 'view', id))
-        new_div.querySelector('#desktop_' + id).setAttribute('src', generateLink('screen', 'view', id))
-        ++id
-        new_div.querySelector('#camera_t3').setAttribute('id', 'camera_' + id)
-        new_div.querySelector('#desktop_t3').setAttribute('id', 'desktop_' + id)
-        new_div.querySelector('#camera_' + id).setAttribute('src', generateLink('camera', 'view', id))
-        new_div.querySelector('#desktop_' + id).setAttribute('src', generateLink('screen', 'view', id))
-        ++id
+        
+        if(document.title == 'Producer Mode'){
+            
+            new_div.querySelector('#camera_t1').setAttribute('id', 'camera_' + id)
+            new_div.querySelector('#desktop_t1').setAttribute('id', 'desktop_' + id)
+            new_div.querySelector('#camera_' + id).setAttribute('src', generateLink('camera', 'view', id))
+            new_div.querySelector('#desktop_' + id).setAttribute('src', generateLink('screen', 'view', id))
+            ++id
+
+            new_div.querySelector('#camera_t2').setAttribute('id', 'camera_' + id)
+            new_div.querySelector('#desktop_t2').setAttribute('id', 'desktop_' + id)
+            new_div.querySelector('#camera_' + id).setAttribute('src', generateLink('camera', 'view', id))
+            new_div.querySelector('#desktop_' + id).setAttribute('src', generateLink('screen', 'view', id))
+            ++id
+
+            new_div.querySelector('#camera_t3').setAttribute('id', 'camera_' + id)
+            new_div.querySelector('#desktop_t3').setAttribute('id', 'desktop_' + id)
+            new_div.querySelector('#camera_' + id).setAttribute('src', generateLink('camera', 'view', id))
+            new_div.querySelector('#desktop_' + id).setAttribute('src', generateLink('screen', 'view', id))
+            ++id
+        
+        }
+        
+        if(document.title == 'Invitation Mode'){
+
+            new_div.querySelector('#camera_share_button_').setAttribute('id','camera_share_button_' + id)
+            new_div.querySelector('#camera_share_button_' + id).setAttribute("onclick",`generateToClipboard('camera','share',${id})`) 
+
+            new_div.querySelector('#camera_view_button_').setAttribute('id','camera_view_button_' + id)
+            new_div.querySelector('#camera_view_button_' + id).setAttribute("onclick",`generateToClipboard('camera','view',${id})`) 
+
+            new_div.querySelector('#desktop_share_button_').setAttribute('id','desktop_share_button_' + id)
+            new_div.querySelector('#desktop_share_button_' + id).setAttribute("onclick",`generateToClipboard('screen','share',${id})`) 
+
+            new_div.querySelector('#desktop_view_button_').setAttribute('id','desktop_view_button_' + id)
+            new_div.querySelector('#desktop_view_button_' + id).setAttribute("onclick",`generateToClipboard('screen','view',${id})`) 
+            
+            ++id
+            content.appendChild(new_div)
+            
+        }
 
         content.appendChild(new_div)
     } else {
@@ -134,7 +160,7 @@ if (document.getElementById('showPass') != null) {
 }
 
 
-if (document.title == "Screen Sharing") {
+if (document.title == "Sharing Mode") {
     startStream()
     changePresenter(1)
     window.addEventListener('keypress', function (e) {
