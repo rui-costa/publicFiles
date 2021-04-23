@@ -5,7 +5,7 @@ let room_code = ''
 let room_password = ''
 
 function tooglePassword() {
-    let password = document.getElementById('roompassword')
+    let password = document.getElementById('room_password')
     if (pass_visible) {
         password.setAttribute("type", "password")
         document.getElementById('showPass').setAttribute("class", "btn btn-outline-success")
